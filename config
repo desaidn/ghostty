@@ -1,14 +1,5 @@
 # This is the configuration file for Ghostty.
 #
-# This template file has been automatically created at the following
-# path since Ghostty couldn't find any existing config files on your system:
-#
-#   /Users/desaidn/Library/Application Support/com.mitchellh.ghostty/config
-#
-# The template does not set any default options, since Ghostty ships
-# with sensible defaults for all options. Users should only need to set
-# options that they want to change from the default.
-#
 # Run `ghostty +show-config --default --docs` to view a list of
 # all available config options and their default values.
 #
@@ -41,7 +32,9 @@
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
-keybind = global:cmd+grave_accent=toggle_quick_terminal
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
 
 font-family = "JetBrains Mono"
 font-size = 16
@@ -50,3 +43,5 @@ window-padding-x = 5
 window-padding-y = 5
 
 keybind = shift+enter=text:\n
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
