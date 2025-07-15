@@ -37,7 +37,7 @@ cursor-style-blink = false
 shell-integration-features = no-cursor
 
 font-family = "JetBrains Mono"
-font-size = 16
+font-size = 14
 
 window-padding-x = 10
 window-padding-y = 10
