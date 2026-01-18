@@ -34,7 +34,7 @@
 # resize-overlay-duration = 4s 200ms
 cursor-style = block
 cursor-style-blink = false
-shell-integration-features = no-cursor
+shell-integration-features = no-cursor,ssh-terminfo,ssh-env
 
 font-family = "JetBrains Mono"
 font-size = 14
